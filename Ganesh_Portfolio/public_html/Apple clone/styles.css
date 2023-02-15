@@ -1,0 +1,758 @@
+*{
+    margin: 0%;
+}
+body{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: white;
+}
+
+/*----------header---------- */
+
+.header{
+    width: 100%;
+    position:  fixed;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    margin: 0%;
+    background-color: black;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: opasity 0.6s;
+    opacity: .85;
+    
+}
+a, a:link, a:visited  {
+    text-decoration: none;
+    color: #B2B2B2;
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+}    
+.topnav{
+    display: flex;
+    padding: 0%;
+    font-size: 12px;
+    line-height: .1;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    list-style: none;
+    text-decoration:none;
+}
+.topnavlinks , .topnavicons{
+    
+    padding: 22px;
+}
+.topnavicons
+{
+    padding-top: 1px;
+}
+
+/* -----------------contents1----------------- */
+
+.contents1text{
+    padding-top: 90px;
+    font-size: 35px;
+    font-weight:lighter;
+    line-height: 1.07143;
+    letter-spacing: -.005em;
+    color:#fff;
+    background-color: black;
+    text-align: center;
+}
+.contents1link{
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.contents1link1 , .contents1link2{
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding: 20px;
+}
+.iphone{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+/* -----------------contents2----------------- */
+ .contents2{
+    width: 100%;
+}
+
+.contents2text{
+    width: 100%;
+    padding-top: 60px;
+    font-size: 38px;
+    font-weight:lighter;
+    line-height: 1.07143;
+    letter-spacing: -.005em;
+    color:black;
+    background-color: #fff;
+    text-align: center;
+}
+.contents2link{
+    cursor: pointer;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.contents2link1 , .contents2link2{
+    
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding: 20px; 
+}
+.iphone2{
+    height: auto;
+    width: 100%;
+} 
+
+/* -----------------contents3----------------- */
+.contents3text{
+    padding-top: 60px;
+    font-size: 38px;
+    font-weight:lighter;
+    line-height: 1.07143;
+    letter-spacing: -.005em;
+    color:#fff;
+    background-color: black;
+    text-align: center;
+}
+.watchlogo{
+    width: 170px;
+    height:40px;
+}
+.watchseries{
+    letter-spacing: 3px;
+    padding-top: 5px;
+    padding-left: 25px;
+    color: #8B0000;
+    font-size:47%;
+    font-weight:550;
+}
+.contents3link{
+    padding: 25px;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.contents3link1 , .contents3link2{
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding: 5px;
+}
+.watch{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+.contents3 h5{
+    padding-top: 10px;
+    font-size: 70%;
+    font-weight: 100;
+
+}
+
+/* ----------------flexboxes------------------ */
+
+
+/* ----------------flexbox1------------------ */
+
+
+.flex1{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+/* -----------macbookpro----------- */
+.flex1contents1{
+    margin-left: 10px;
+    width: 745px;
+    height: 550px;
+}
+.flex1contents1textbox1{
+    height: 160px;
+    width:744px;
+    background-color: black;
+    text-align: center;
+}
+
+.flex1contents1textbox1h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    padding-top: 40px;
+}
+.flex1contents1textbox1h4{
+    color: #fff;
+    padding-top: 10px;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+
+.flex1contents1textbox1links{
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.flex1contents1textbox1link1, .flex1contents1textbox1link2{
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding-right: 20px; 
+    padding-top: 15px;
+}
+
+/* -----------Homepod----------- */
+
+.flex1contents2{
+    margin-right: 10px;
+    width:745px;
+    height: 580px; 
+}
+
+.flex1contents2textbox1{
+    height: 199px;
+    width:745px;
+    background-color: black;
+    text-align: center;
+}
+
+.flex1contents2textbox1h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    padding-top: 40px;
+}
+.flex1contents2textbox1h4{
+    color: #fff;
+    padding-top: 10px;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+.flex1contents2textbox1p{
+    color: #6e6e73;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+
+}
+.flex1contents2textbox1links{
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.flex1contents2textbox1link1, .flex1contents2textbox1link2{
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+
+
+/* ----------------flexbox2------------------ */
+
+.flex2{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+/* -----------iwatch----------- */
+
+.flex2contents1{
+    margin-left: 10px;
+    width: 745px;
+    height: 579px;
+}
+.flex2contents1textbox1{
+    height: 240px;
+    width:744px;
+    background-color: black;
+    text-align: center;
+}
+
+.flex2contents1textbox1h1{
+    width: 330px;
+    height: 132px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    padding-top: 40px;
+    padding-left: 215px;
+}
+.flex2contents1textbox1h4{
+    width: 360px;
+    height: 52px;
+    color: #fff;
+    padding-top: 6px;
+    padding-left: 200px;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+
+.flex2contents1textbox1links{
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+    height: 64.8px;
+}
+.flex2contents1textbox1link1, .flex2contents1textbox1link2{
+    cursor: pointer;
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding-right: 20px; 
+    padding-top: 15px;
+}
+.flex2imageleft{
+    padding-top: 55px;
+}
+
+/* -----------valentines----------- */
+
+.flex2contents2{
+    margin-right: 10px;
+    width:745px;
+    height: 580px; 
+}
+
+.flex2contents2textbox1{
+    height: 199px;
+    width:745px;
+    background-color: #fcd8ca;
+    
+    text-align: center;
+}
+
+.flex2contents2textbox1h1{
+    color: #1d1d1f;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    padding-top: 40px;
+}
+.flex2contents2textbox1h4{
+    color: #1d1d1f;
+    padding-top: 10px;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+.flex2contents2textbox1p{
+    color: #6e6e73;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+
+}
+.flex2contents2textbox1links{
+    cursor: pointer;
+    background-color:  #fcd8ca;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.flex2contents2textbox1link1, .flex2contents2textbox1link2{
+    cursor: pointer;
+
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+/* ----------------flexbox3------------------ */
+
+.flex3{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+/* -----------Fitness----------- */
+.flex3contents1{
+    margin-left: 10px;
+    width: 745px;
+    height: 580px;
+}
+.flex3contents1textbox1{
+    height: 160px;
+    width:744px;
+    background-color:#F5F5F5;
+    text-align: center;
+}
+
+.flex3contents1textbox1h1img{
+    color: black;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    padding-top: 40px;
+}
+.flex3contents1textbox1h41{
+    color: black;
+    padding-top: 10px;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+.flex3contents1textbox1h42{
+    color: black;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+
+.flex3contents1textbox1links{
+    cursor: pointer;
+    background-color:#F5F5F5;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.flex3contents1textbox1link1, .flex3contents1textbox1link2{
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding-right: 20px; 
+    padding-top: 15px;
+}
+.flex3imageleft{
+    padding-top: 10px;
+    height: 405.5px;
+}
+
+/* -----------Card----------- */
+
+.flex3contents2{
+    margin-right: 10px;
+    width:745px;
+    height: 580px; 
+}
+
+.flex3contents2textbox1{
+    height: 199px;
+    width:745px;
+    background-color:#fff;
+    text-align: center;
+}
+
+.flex3contents2textbox1h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    padding-top: 40px;
+}
+.flex3contents2textbox1h41{
+    color: black;
+    padding-top: 10px;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+.flex3contents2textbox1h42{
+    color: black;
+    padding-top: 1px;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+.flex3contents2textbox1links{
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.flex3contents2textbox1link1, .flex3contents2textbox1link2{
+    color: #2997ff;
+    font-size: large;
+    font-weight: 100;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+/* ---------------imageslider----------------- */
+
+.imageslider{
+    margin-top: -25px;
+    height: 700px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: -15px;
+}
+
+.sideimageleftfile{
+    width: 134px;
+    height: 669px;
+}
+.sideimagecenterfile{
+    width: 1250px;
+    height: 674px;
+}
+.sideimagerightfile{
+    width: 134px;
+    height: 661px;
+}
+
+.dottedbar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+   
+}
+.dotterbardotsul{
+    margin-top: -10;
+    display: flex;
+    height: 25px;
+    width: 220px;
+    opacity: .85;
+    cursor: pointer;
+}
+.li{
+    width: 8px;
+    height: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
+    font-size: 1.6em;
+    opacity:.40;
+
+}
+.dotterbarplayimg{
+    position: absolute;
+    padding-left: 580px;
+    margin-top: -5px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+/* ---------------footer--------------- */
+footer{
+    background-color:  #f5f5f7;
+}
+.footermaincontainer{
+    margin-left: 260px;
+    align-items: center;
+    height: 900px;
+    width: 980px;
+    background-color: #f5f5f7;
+}
+.footermaincontaineritems1{
+    padding-top: 15px;
+    font-size: 12.2px;
+    line-height: 1.33337;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    opacity: 0.80  ;
+    list-style: none;
+    word-spacing: 1px;
+}
+.footermaincontaineritems1 li{
+    padding-bottom: 9px;
+}
+.hr1{
+    opacity: .50;
+}
+.table{
+    width: 980px;
+    height: 441px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.table1{
+    padding-top: 5px;
+    height: 430px;
+    width: 196px;
+}.table2{
+    padding-top: 5px;
+    height: 430px;
+    width: 196px;
+}.table3{
+    padding-top: 5px;
+    height: 430px;
+    width: 196px;
+}.table4{
+    padding-top: 5px;
+    height: 430px;
+    width: 196px;
+}.table5{
+    padding-top: 5px;
+    height: 430px;
+    width: 196px;
+}
+.heading{
+    cursor: pointer;
+    font-size: 12.3px;
+    line-height: 1.5;
+    font-weight: 600;
+    opacity: .64;
+    letter-spacing: -.01em;
+    word-spacing: 1px;
+    
+}
+.subheading{
+    cursor: pointer;
+    font-size: 12.2px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    opacity: 0.80  ;
+    word-spacing: 1px;
+}
+
+.belowtableflex1{
+    cursor: pointer;
+    margin-left: -5px;
+    display: flex;
+    font-size: 12.3px;
+    line-height: 1.4;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    opacity: 0.80  ;
+    word-spacing: 1px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+.hr2{
+    opacity: .50;
+    margin-left: 35px;
+}
+.belowtableblue{
+    color: #06c;
+    padding-left:3px;
+    padding-right:3px ;
+    cursor: pointer;
+}
+.belowtableflex2{
+    cursor: pointer;
+    padding-top: 8px;
+    margin-left: -1px;
+    display: flex;
+    align-items: center;
+    margin-left: -5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12.3px;
+    line-height: 1.4;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    opacity: 0.80  ;
+    word-spacing: 1px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+.belowtableflextext{
+    cursor: pointer;
+    margin-left: -5px;
+    display: flex;
+    font-size: 12.3px;
+    line-height: 1.4;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    opacity: 0.80  ;
+    word-spacing: 1px;
+    padding-left: 5px;
+ 
+}
+.belowtablefinallinks1{
+    cursor: pointer;
+    margin-left: 30px;
+    display: flex;
+}
+.end{
+    cursor: pointer;
+    padding-right: 15px;
+}
+.belowtablefinallinks2{
+    cursor: pointer;
+    padding-left: 177px;
+}
